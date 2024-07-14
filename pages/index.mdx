@@ -1,0 +1,40 @@
+---
+type: page
+title: About
+# name: name
+date: 2021-03-19
+---
+
+## Ali Khattab
+
+export let yearsOfExperience = 0;
+
+{(() => {
+  const today = new Date();
+  const startDate = new Date('2022-02-01');
+
+  // Get no. of years of experience rounding down
+  const differenceInSeconds = (today - startDate) / 1000;
+  yearsOfExperience = Math.floor(differenceInSeconds / 3.154e+7);
+
+})()}
+
+
+
+
+Hey, I'm a full-stack developer with {yearsOfExperience}+ years experience eager about learning all things web development.
+
+Technologies that I am currently learning about include:
+
+- React/Next.js
+- Node.js/ExpressJS
+- Java/Spring boot
+- Containers
+- Kubernetes
+
+
+---
+
+<div>
+  GitHub [@aliktb](https://github.com/aliktb)
+</div>
